@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# build outputs
+frontend/dist/
+
+# local env
+.env
+
+# backend runtime data (keep sample CSV)
+backend/data/*
+!backend/data/sample_issued.csv
